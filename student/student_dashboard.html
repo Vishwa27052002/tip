@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h2>Welcome, [Student Name]!</h2>
+    <h3>Your Dashboard</h3>
+    <ul>
+        <li><a href="#" id="view-timetable-link">View Timetable</a></li>
+        <li><a href="#" id="join-queue-link">Join Session Queue</a></li>
+        <li><a href="#" id="ask-question-link">Ask a Question</a></li>
+        <li><a href="#" id="view-expertise-link">View Tutor Expertise</a></li>
+        <li><a href="#" id="view-statistics-link">View Statistics</a></li>
+        <li><a href="#" id="access-materials-link">Access Learning Materials</a></li>
+        <li><a href="php/logout.php">Logout</a></li>
+        <li><a href="php/student_actions.php?action=logout">Logout</a></li>
+    </ul>
+
+    <!-- Timetable Section -->
+    <div id="timetable-section">
+        <!-- Display timetable data here -->
+    </div>
+
+    <!-- Session Queue Section -->
+    <div id="queue-section">
+        <!-- Display session queue data here -->
+    </div>
+
+    <!-- Ask a Question Section -->
+    <div id="question-section">
+        <h4>Ask a Question</h4>
+        <form id="ask-question-form">
+            <textarea name="question" rows="4" cols="50" placeholder="Enter your question"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- View Tutor Expertise Section -->
+    <div id="expertise-section">
+        <!-- Display tutor expertise data here -->
+    </div>
+
+    <!-- View Statistics Section -->
+    <div id="statistics-section">
+        <!-- Display statistics data here -->
+    </div>
+
+    <!-- Access Learning Materials Section -->
+    <div id="materials-section">
+        <!-- Display learning materials here -->
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
